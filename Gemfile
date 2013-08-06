@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc2'
 gem 'rails-api'
+gem 'sqlite3'
 gem 'active_model_serializers'
 gem 'haml-rails'
-
+gem 'protected_attributes'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
